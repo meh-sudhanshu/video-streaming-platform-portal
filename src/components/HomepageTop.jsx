@@ -1,34 +1,13 @@
 import React, { useRef } from "react"
 import './homepage-top.css'
 import netflixLogo from '../assets/netflix-logo.svg'
-// import { MailerSend, EmailParams, Sender, Recipient } from "mailersend";
-// import nodemailer from 'nodemailer';
-
 
 const HomepageTop = ()=>{
-
     let emailRef = useRef()
-
     const sumbitHandler = async (e)=>{
         e.preventDefault()
         const userEmail =(emailRef.current.value)
-        // const mailerSend = new MailerSend({
-        //     apiKey: "",
-        //   });
-        // emailRef.current.value = ""
-        // const sentFrom = new Sender("sudhashukumar8816@gmail.com", "Your name");
-        // const recipients = [
-        //         new Recipient("vadapallivandana555@gmail.com", "Your Client")
-        // ]
-        // const emailParams = new EmailParams()
-        //         .setFrom(sentFrom)
-        //         .setTo(recipients)
-        //         .setSubject("This is a Subject")
-        //         .setText("hello alu fry")
-
-        // mailerSend.email.send(emailParams)
     }
-
     return(
         <div className="homepage-top">
         <div className="top">
