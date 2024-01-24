@@ -1,0 +1,106 @@
+
+.homepage-top{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    background-image: url('../assets/backgroung-image.jpg');
+    background-position: top center;
+    background-size: cover;
+}
+
+.top{
+    width: 100vw;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+}
+.content-ctn{
+    width: 100vw;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-ctn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.heading1{
+    font-size: 3rem;
+    color: white;
+}
+.heading2{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.para{
+    font-size: 0.9rem;
+    color: white;
+}
+
+.ip-f{
+    width: 380px;
+    border: none;
+    border: 2px solid green;
+    height: 50px;
+    background-color: transparent;
+    padding: 20px;
+    color: white;
+    border-radius: 2px;
+}
+
+.ip-f:focus{
+    outline: none;
+}
+
+.get-started-button{
+    height: 50px;
+    width: 180px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.btn-ctn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.language-options{
+    width: 100px;
+    height: 40px;
+    border: 1px solid #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+}
+
+.language-options:focus{
+    color: black;
+}
