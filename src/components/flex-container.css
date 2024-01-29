@@ -14,9 +14,26 @@
     overflow-x: hidden;
 }
 
+/* .flex-ctn:nth-child(even){
+    flex-direction: row-reverse;
+} */
+
+.left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    padding-left: 30px;
+}
+
 .f-heading{
     color: white;
+    font-size: 3rem;
 }
 .f-para{
     color: white;
+    font-size: 1.8rem;
 }

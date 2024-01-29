@@ -1,0 +1,41 @@
+
+.input-ctn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.para{
+    font-size: 0.9rem;
+    color: white;
+}
+
+.ip-f{
+    width: 380px;
+    border: none;
+    border: 2px solid green;
+    height: 50px;
+    background-color: transparent;
+    padding: 20px;
+    color: white;
+    border-radius: 2px;
+}
+
+.ip-f:focus{
+    outline: none;
+}
+
+.get-started-button{
+    height: 50px;
+    width: 180px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
